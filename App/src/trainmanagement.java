@@ -1,19 +1,26 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-// Main Class
-public class trainmanagement {
+/**
+ * UC1: Initialize Train and Display Consist Summary
+ * This class serves as the entry point for the Train Consist Management App.
+ */
+public class TrainConsist {
 
     public static void main(String[] args) {
-
-        // Welcome message
+        // 1. Application prints welcome message
         System.out.println("=== Train Consist Management App ===");
-        System.out.println(" ");
 
-        // Initialize empty consist (List of bogies)
-        List<String> consist = new ArrayList<>();
+        // 2. Initialize the train consist using a dynamic ArrayList
+        // We use the List interface for abstraction
+        List<String> bogies = new ArrayList<>();
 
-        // Display initial bogie count
+        // 3. Display the initial state of the train
+        // Using .size() to show the count of bogies in the collection [cite: 1]
         System.out.println("Train consist initialized.");
-        System.out.println("Initial number of bogies: " + consist.size());
+        System.out.println("Initial Bogie Count: " + bogies.size());
+
+        // 4. Program continues [cite: 1]
+        System.out.println("Ready for further operations.");
     }
 }
