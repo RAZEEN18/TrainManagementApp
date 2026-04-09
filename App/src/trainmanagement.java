@@ -23,5 +23,6 @@ public class TrainConsist {
 
         // 5. Print the final state of the train consist
         System.out.println("Final Train Consist: " + passengerBogies);
+        System.out.println(".");
     }
 }
